@@ -24,6 +24,13 @@ The repo is divided into the frontend and backend code. The frontend has been de
    source venv/bin/activate
    pip install -r requirements.txt
    ```
+
+3. Export an environment variable with your openai key
+
+   ```
+   export OPENAI_API_KEY=<YOUR_KEY_GOES_HERE>
+   ```
+   
 4. Start the backend Flask server
 
    ```
