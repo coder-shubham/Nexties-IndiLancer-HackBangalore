@@ -30,8 +30,10 @@ The repo is divided into the frontend and backend code. The frontend has been de
    ```
    export OPENAI_API_KEY=<YOUR_KEY_GOES_HERE>
    ```
+
+4. Get a hold of the credentials for a service account for your project, you'll need to generate one from the Firebase console from `Project Settings -> Service Accounts`. The documentation is [here](https://firebase.google.com/docs/admin/setup#add_firebase_to_your_app)
    
-4. Start the backend Flask server
+5. Start the backend Flask server
 
    ```
    cd src/
@@ -40,6 +42,6 @@ The repo is divided into the frontend and backend code. The frontend has been de
 
    The application will start running locally on port 5000.
 
-5. Download and install the Android app from the release section.
+6. Download and install the Android app from the release section.
 
    That's it!
